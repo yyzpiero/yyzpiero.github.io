@@ -2,6 +2,7 @@
 layout: academic_project
 title: Wireless Channel Prediction via Deep Learning
 subtitle: Lightweight prediction models for adaptive transmit power control in wireless body area networks.
+permalink: /projects/wireless-channel-prediction/
 ---
 
 This project studies how short-term wireless channel dynamics can be predicted accurately enough to support transmit power control in wireless body area networks. The goal is to reduce energy usage while preserving reliable communication around the human body, where channel behavior can change quickly with posture and motion.

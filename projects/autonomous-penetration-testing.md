@@ -2,6 +2,7 @@
 layout: academic_project
 title: Deep Reinforcement Learning Enabled Autonomous Penetration Testing
 subtitle: Learning agents that explore attack paths, diversify behavior, and generalize across network security scenarios.
+permalink: /projects/autonomous-penetration-testing/
 ---
 
 This project develops reinforcement learning methods for autonomous penetration testing. The central question is how a learning agent can make useful security decisions when the network state is partially observed, the action space is structured, and the environment changes across scenarios.
