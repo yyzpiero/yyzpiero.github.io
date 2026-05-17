@@ -50,46 +50,40 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <body>
   <div class="container">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/academic-home.css">
 
-<section id="header-nav">
-  <header>
-    <nav>
-      <ul>
+<div class="academic-home academic-subpage">
+  
+<nav class="site-nav">
+  <div class="shell">
+    <a class="brand" href="/">Yizhou Yang</a>
+    <div class="nav-links" aria-label="Primary navigation">
+      <a href="/#research">Research</a>
+      <a href="/#projects">Projects</a>
+      <a href="/publications">Publications</a>
+      <a href="/blog">Blog</a>
+      <a href="https://scholar.google.com.au/citations?hl=en&pli=1&user=ZRTPDrsAAAAJ">Scholar</a>
+      <a href="https://github.com/yyzpiero">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+
+  <main class="shell post-shell">
+    <article class="post-article">
+      <header class="post-heading">
+        <a class="back-link" href="/blog">Blog</a>
+        <h1>Reinforcement Learning in Automatic Penetration Testing</h1>
         
-        <!-- others -->
-        <a href="/">
-          <li class="btn-nav">Home</li>
-        </a>
+          <p class="subtitle">Unleashing the Power of Red Team Operations</p>
         
-          <a href="/publications">
-            <li class="btn-nav">Publications</li>
-          </a>
-        
-        
-        
-          <a href="/blog">
-            <li class="current btn-nav">Blog</li>
-          </a>
-          <a href="/tags">
-            <li class="btn-nav">Tags</li>
-          </a>
-        
-        
-      </ul>
-    </nav>
-  </header>
-</section>
-<div id="post">
-  <section class="post-header">
-    <h1 class="title">Reinforcement Learning in Automatic Penetration Testing</h1>
-    <p class="subtitle">Unleashing the Power of Red Team Operations</p>
-    <p class="meta">
-      January 15, 2023
-    </p>
-  </section>
-  <section class="post-content">
-    <h2 id="red-teaming-beyond-penetration-testing-for-ultimate-security-assessment">Red Teaming: Beyond Penetration Testing for Ultimate Security Assessment</h2>
+        <time>January 15, 2023</time>
+      </header>
+      <div class="post-content">
+        <h2 id="red-teaming-beyond-penetration-testing-for-ultimate-security-assessment">Red Teaming: Beyond Penetration Testing for Ultimate Security Assessment</h2>
 
 <p>In today’s rapidly evolving security landscape, addressing the formidable Advanced Persistent Threats (APTs) has become an increasingly complex task. Enter the concept of a “Red Team” - a game-changing approach to security assessment that goes beyond traditional penetration testing.</p>
 
@@ -135,47 +129,10 @@
 
 <p>The objective of incorporating reinforcement learning into automated red team operations is to enhance the efficacy of deep learning-based control techniques within realistic red team scenarios. In this context, an automated red team agent, represented by a neural network, utilizes the current network observation as input and generates optimal attack decisions as output.</p>
 
-  </section>
+      </div>
+    </article>
+  </main>
 </div>
-
-<div id="top" class="top-btn" onclick="moveTop()">
-  <i class="fas fa-chevron-up"></i>
-</div>
-
-<script>
-  var lastScrollTop = 0;
-  window.onscroll = function () {
-    var st = document.body.scrollTop || document.documentElement.scrollTop;
-    if (st > 250) {
-      document.getElementById("top").style.display = "block"
-      if (st > lastScrollTop) {
-        document.getElementById("top").style.opacity = 0
-      } else {
-        document.getElementById("top").style.opacity = 1
-      }
-    } else {
-      document.getElementById("top").style.opacity = 0
-      if (st > lastScrollTop) {
-        document.getElementById("top").style.display = "none"
-      }
-    }
-    lastScrollTop = st <= 0 ? 0 : st;
-  }
-  function moveTop() {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
-  }
-</script>
-
-<!-- Footer -->
-<footer>
-  <div class="footer">
-    Copyright © 2022
-    <a href=""></a>.
-    Powered by Jekyll with
-    <a href="https://github.com/chrjabs/Grape-Academic-Theme">Grape Academic Theme</a>.
-  </div>
-</footer>
 
   </div>
 </body>
