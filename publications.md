@@ -1,5 +1,5 @@
 ---
-layout: publications
+layout: academic_publications
 title: Publications
-description: List of publications
+description: Full publication list for Yizhou Yang
 ---

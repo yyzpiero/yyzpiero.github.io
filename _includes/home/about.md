@@ -1,3 +1,3 @@
-My research focuses on intelligent decision making for cyber security and networked systems. Recent work studies reinforcement learning agents for autonomous penetration testing, including how they explore complex attack graphs, generalize across unseen environments, and balance efficiency with behavioral diversity.
+I am a postdoctoral researcher at Zhejiang Lab, working across cyber security, wireless systems, and learning-based control. My research has moved from resource allocation and channel prediction in wireless body area networks toward autonomous security agents that can operate in uncertain, changing environments.
 
-Earlier work developed game-theoretic and deep learning methods for wireless body area networks, and my recent collaborations also examine numerical reliability in large-scale scientific models.
+Beyond my main work on penetration testing and networked systems, I collaborate on reliable scientific computing, especially numerical precision and error compensation in large-scale simulation models.

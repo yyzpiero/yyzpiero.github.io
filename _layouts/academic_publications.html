@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+
+<div class="academic-home academic-subpage">
+  {% include academic_nav.html %}
+
+  <header class="subpage-hero">
+    <div class="shell">
+      <p class="section-label">Publications</p>
+      <h1>Full publication list</h1>
+      <p class="lead">A complete list of papers, preprints, and thesis work. The homepage shows only selected highlights.</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="publication-list full-list" aria-label="Full publication list">
+      {% for paper in site.data.home_publications %}
+        <article class="publication-card">
+          <div><span class="pub-year">{{ paper.year }}</span></div>
+          <div>
+            <h2>{{ paper.title }}</h2>
+            <p class="authors">{{ paper.authors | replace: 'Yizhou Yang', '<strong>Yizhou Yang</strong>' }}</p>
+            <p class="venue">{{ paper.venue }}</p>
+            {% if paper.links %}
+              <div class="paper-links">
+                {% for link in paper.links %}
+                  <a href="{{ link.url }}">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </section>
+  </main>
+</div>

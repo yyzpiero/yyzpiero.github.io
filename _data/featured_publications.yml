@@ -1,0 +1,24 @@
+- year: 2025
+  title: "Behaviour-Diverse Automatic Penetration Testing: A Coverage-Based Deep Reinforcement Learning Approach"
+  authors: "Yizhou Yang, Longde Chen, Sha Liu, Lanning Wang, Haohuan Fu, Xin Liu, and Zuoning Chen"
+  venue: "Frontiers of Computer Science, 19(3), 193309"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s11704-024-3380-1"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2202.10630"
+- year: 2023
+  title: "SetTron: Towards Better Generalisation in Penetration Testing with Reinforcement Learning"
+  authors: "Yizhou Yang, Mengxuan Chen, Haohuan Fu, and Xin Liu"
+  venue: "IEEE GLOBECOM 2023, pp. 4662-4667"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1109/GLOBECOM54140.2023.10437804"
+- year: 2020
+  title: "Power Control for Body Area Networks: Accurate Channel Prediction by Lightweight Deep Learning"
+  authors: "Yizhou Yang, David Smith, Jathushan Rajasegaran, and Suranga Seneviratne"
+  venue: "IEEE Internet of Things Journal, 8(5), pp. 3567-3575"
+- year: 2025
+  title: "Enhancing Single Precision with Quasi-Double Precision: Achieving Double-Precision Accuracy in MPAS-A Version 8.2.1"
+  authors: "Jiayi Lai, Lanning Wang, Qizhong Wu, Yizhou Yang, and Fang Wang"
+  venue: "Geoscientific Model Development, 18(4), pp. 1089-1102"

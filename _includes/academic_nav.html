@@ -1,0 +1,14 @@
+{% assign home = site.data.home %}
+<nav class="site-nav">
+  <div class="shell">
+    <a class="brand" href="{{ '/' | relative_url }}">Yizhou Yang</a>
+    <div class="nav-links" aria-label="Primary navigation">
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/#projects' | relative_url }}">Projects</a>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <a href="{{ '/blog' | relative_url }}">Blog</a>
+      <a href="{{ home.links.scholar }}">Scholar</a>
+      <a href="{{ home.links.github }}">GitHub</a>
+    </div>
+  </div>
+</nav>

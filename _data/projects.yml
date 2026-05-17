@@ -6,6 +6,7 @@
       alt: "Wireless channel prediction visualization"
     date: 05/2020
     title: Wireless Channel Prediction via Deep Learning
+    url: /projects/wireless-channel-prediction/
     summary:
     description: Learning temporal channel behavior for transmit power control and adaptive resource allocation in wireless body area networks.
     contents:
@@ -14,12 +15,12 @@
 - project:
     print: True
     modal: True
-    url: https://arxiv.org/abs/2202.10630
     image:
       path: "AutoPT_Agent.png"
       alt: "Autonomous penetration testing agent overview"
     date: 06/2022 - Developing
     title: Deep Reinforcement Learning Enabled Autonomous Penetration Testing
+    url: /projects/autonomous-penetration-testing/
     summary:
     description: Reinforcement learning agents that explore attack paths, diversify behavior, and improve generalization across network security scenarios.
     contents:
