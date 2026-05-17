@@ -1,0 +1,16 @@
+hero:
+  current_role: "Postdoctoral Researcher, Zhejiang Lab"
+  research_focus: "Autonomous penetration testing, wireless body area networks, and reliable scientific computing"
+  headline: "Autonomous cyber agents and intelligent networked systems."
+  lead: "I build learning and game-theoretic methods for autonomous cyber agents, wireless body area networks, and reliable scientific computing, with a focus on systems that make robust decisions under uncertainty."
+
+links:
+  scholar: "https://scholar.google.com.au/citations?hl=en&pli=1&user=ZRTPDrsAAAAJ"
+  cv: "/cv/"
+  github: "https://github.com/yyzpiero"
+
+profile:
+  subtitle: "PostDoc, Zhejiang Lab. PhD, Australian National University."
+
+stats:
+  papers: 10

@@ -1,0 +1,48 @@
+- year: 2025
+  title: "Behaviour-Diverse Automatic Penetration Testing: A Coverage-Based Deep Reinforcement Learning Approach"
+  authors: "Yizhou Yang, Longde Chen, Sha Liu, Lanning Wang, Haohuan Fu, Xin Liu, and Zuoning Chen"
+  venue: "Frontiers of Computer Science, 19(3), 193309"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s11704-024-3380-1"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2202.10630"
+- year: 2025
+  title: "Enhancing Single Precision with Quasi-Double Precision: Achieving Double-Precision Accuracy in the Model for Prediction Across Scales-Atmosphere (MPAS-A) Version 8.2.1"
+  authors: "Jiayi Lai, Lanning Wang, Qizhong Wu, Yizhou Yang, and Fang Wang"
+  venue: "Geoscientific Model Development, 18(4), pp. 1089-1102"
+- year: 2025
+  title: "Evaluating Effectiveness of Round-Off Error Compensation with Three Methods in Shallow-Water Models"
+  authors: "Jiayi Lai, Lanning Wang, Yizhou Yang, Qizhong Wu, and Mengxuan Chen"
+  venue: "Ocean Modelling, 102617"
+- year: 2025
+  title: "Engineering Social Optimality via Utility Shaping in Non-Cooperative Games under Incomplete Information and Imperfect Monitoring"
+  authors: "David Smith, Jie Dong, and Yizhou Yang"
+  venue: "arXiv preprint arXiv:2510.26033"
+- year: 2023
+  title: "SetTron: Towards Better Generalisation in Penetration Testing with Reinforcement Learning"
+  authors: "Yizhou Yang, Mengxuan Chen, Haohuan Fu, and Xin Liu"
+  venue: "IEEE GLOBECOM 2023, pp. 4662-4667"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1109/GLOBECOM54140.2023.10437804"
+- year: 2020
+  title: "Power Control for Body Area Networks: Accurate Channel Prediction by Lightweight Deep Learning"
+  authors: "Yizhou Yang, David Smith, Jathushan Rajasegaran, and Suranga Seneviratne"
+  venue: "IEEE Internet of Things Journal, 8(5), pp. 3567-3575"
+- year: 2021
+  title: "The Internet of Humans: Optimal Resource Allocation and Wireless Channel Prediction"
+  authors: "Yizhou Yang"
+  venue: "Doctoral thesis, Australian National University"
+- year: 2019
+  title: "Deep Learning Channel Prediction for Transmit Power Control in Wireless Body Area Networks"
+  authors: "Yizhou Yang, David B. Smith, and Suranga Seneviratne"
+  venue: "IEEE International Conference on Communications (ICC), pp. 1-6"
+- year: 2018
+  title: "Robust Wireless Body Area Networks Coexistence: A Game Theoretic Approach to Time-Division MAC"
+  authors: "Yizhou Yang and David Smith"
+  venue: "arXiv preprint arXiv:1808.10094"
+- year: 2017
+  title: "Wireless Body Area Networks: Energy-Efficient, Provably Socially-Efficient, Transmit Power Control"
+  authors: "Yizhou Yang and David B. Smith"
+  venue: "IEEE International Conference on Communications (ICC), pp. 1-6"

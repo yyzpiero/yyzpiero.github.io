@@ -1,5 +1,5 @@
 ---
-layout: portfolio
-title : Portfolio
-description: Personal portfolio
+layout: academic_home
+title: Yizhou Yang
+description: Personal academic homepage
 ---

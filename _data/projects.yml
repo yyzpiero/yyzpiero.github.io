@@ -1,46 +1,26 @@
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    #url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+- project:
+    print: True
+    modal: True
     image:
-      path: "Channel_Example.jpg" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2020 &ndash; 
-    title: Wireless Channel Prediction via Deep Learning 
-    summary: 
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+      path: "Channel_Example.jpg"
+      alt: "Wireless channel prediction visualization"
+    date: 05/2020
+    title: Wireless Channel Prediction via Deep Learning
+    summary:
+    description: Learning temporal channel behavior for transmit power control and adaptive resource allocation in wireless body area networks.
     contents:
-        - title: 1. Portfolio Page
-        #   image:
-        #     path: portfolio.png
-        #     alt: "A screenshot of the portfolio page"
-        #   description: <li>Concise portfolio page</li>
-        #     <li>Recent publications</li>
-        #     <li>Projects</li>
-        # - title: 2. Optional Blog Functionality
-        #   image:
-        #     path: home.png
-        #     alt: "A screenshot of the blog page"
-        #   description: <li>Responsive Layout</li>
-        #     <li>Tags</li> 
-        #     <li>Pagination</li>
-        # - title: 3. Tags Page
-        #   image:
-        #     path: tags.png
-        #     alt: "A screenshot of the tags page"
-        #   description: <li>Responsive Layout</li> 
-        #     <li>Tags</li> 
+      - title: Wireless channel prediction
 
 - project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  https://arxiv.org/abs/2202.10630 # Full URL
-    image: 
-      path: "AutoPT_Agent.png" # path: assets/project/
-      alt: "System Overview"
-    date: 06/2022 &ndash; Developing
+    print: True
+    modal: True
+    url: https://arxiv.org/abs/2202.10630
+    image:
+      path: "AutoPT_Agent.png"
+      alt: "Autonomous penetration testing agent overview"
+    date: 06/2022 - Developing
     title: Deep Reinforcement Learning Enabled Autonomous Penetration Testing
-    summary: This is a Dummy
-    description:  
-
-
+    summary:
+    description: Reinforcement learning agents that explore attack paths, diversify behavior, and improve generalization across network security scenarios.
+    contents:
+      - title: Autonomous penetration testing
